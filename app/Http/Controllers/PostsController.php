@@ -8,11 +8,7 @@ use Illuminate\Http\Request;
 
 class PostsController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function index()
     {
         return view ('posts.index')->with('posts', Post::all());
@@ -48,37 +44,38 @@ class PostsController extends Controller
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function edit($id)
     {
         //
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function update(Request $request, $id)
     {
         //
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function destroy($id)
     {
-        //
+        $post = Post::withTrashed()->where('id', $id)->firstOrFail();
+        if($post->trashed()){
+            $post->forceDelete();
+        }else{
+            $post->delete();
+        }
+        $post->delete();
+        session()->flash('success', 'Post deleted successfully');
+        return redirect(route('posts.index'));
+    }
+
+
+    /* Display a list of all trashed posts */
+
+    public function trashed()
+    {
+        $trashed = Post::withTrashed()->get();
+        return view('posts.index')->withPosts($trashed);
     }
 }

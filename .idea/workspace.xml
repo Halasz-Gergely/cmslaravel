@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" name="Default Changelist" comment="">
+    <list default="true" id="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" name="Default Changelist" comment="Starting point">
       <change beforePath="$PROJECT_DIR$/../adrisland" beforeDir="false" afterPath="$PROJECT_DIR$/../adrisland" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cms3" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +31,7 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -160,7 +171,9 @@
       <workItem from="1567264163313" duration="1716000" />
       <workItem from="1567413739052" duration="926000" />
       <workItem from="1567415607062" duration="26000" />
-      <workItem from="1567417295640" duration="5834000" />
+      <workItem from="1567417295640" duration="6112000" />
+      <workItem from="1567431456023" duration="6850000" />
+      <workItem from="1567445108847" duration="1363000" />
     </task>
     <task id="LOCAL-00001" summary="Create and store categories">
       <created>1566827977287</created>
@@ -211,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567430553221</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Starting point">
+      <created>1567431838436</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567431838436</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Soft-delete function for Posts table">
+      <created>1567436324364</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567436324364</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +266,7 @@
     <MESSAGE value="Delete with post request, javascript, modal" />
     <MESSAGE value="Create post page and controller, route" />
     <MESSAGE value="Starting point" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting point" />
+    <MESSAGE value="Soft-delete function for Posts table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Soft-delete function for Posts table" />
   </component>
 </project>
