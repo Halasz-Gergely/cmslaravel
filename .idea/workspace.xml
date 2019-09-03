@@ -6,7 +6,13 @@
       <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cms3" beforeDir="false" />
+    </list>
+    <list id="d9438687-037b-445f-bc69-c658aa6de369" name="Starting point" comment="">
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,6 +154,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" name="Default Changelist" comment="" />
+      <changelist id="d9438687-037b-445f-bc69-c658aa6de369" name="Starting point" comment="" />
       <created>1566812035337</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -163,7 +170,9 @@
       <workItem from="1567415607062" duration="26000" />
       <workItem from="1567417295640" duration="6112000" />
       <workItem from="1567431456023" duration="6850000" />
-      <workItem from="1567445108847" duration="2079000" />
+      <workItem from="1567445108847" duration="5987000" />
+      <workItem from="1567497820955" duration="2572000" />
+      <workItem from="1567500878260" duration="540000" />
     </task>
     <task id="LOCAL-00001" summary="Create and store categories">
       <created>1566827977287</created>
@@ -242,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567447058309</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Soft delete post delete from db">
+      <created>1567447453869</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1567447453869</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Starting point">
+      <created>1567500794065</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1567500794065</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +294,7 @@
     <MESSAGE value="Create post page and controller, route" />
     <MESSAGE value="Soft-delete function for Posts table" />
     <MESSAGE value="Permanently delete from app after soft delete" />
+    <MESSAGE value="Soft delete post delete from db" />
     <MESSAGE value="Starting point" />
     <option name="LAST_COMMIT_MESSAGE" value="Starting point" />
   </component>
