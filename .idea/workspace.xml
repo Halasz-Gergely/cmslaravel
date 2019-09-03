@@ -3,10 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" name="Default Changelist" comment="Starting point">
       <change beforePath="$PROJECT_DIR$/../adrisland" beforeDir="false" afterPath="$PROJECT_DIR$/../adrisland" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/resources/views/categories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Posts/CreatePostsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Posts/CreatePostsRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_26_111419_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_26_111419_create_posts_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cms3" beforeDir="false" />
     </list>
     <list id="d9438687-037b-445f-bc69-c658aa6de369" name="Starting point" comment="">
@@ -28,6 +42,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
+      <ranges>
+        <range start1="6" end1="7" start2="6" end2="6" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
+        <range start1="24" end1="24" start2="23" end2="24" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
+        <range start1="31" end1="33" start2="31" end2="34" changelist="d9438687-037b-445f-bc69-c658aa6de369" />
+      </ranges>
+    </file>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -172,7 +195,8 @@
       <workItem from="1567431456023" duration="6850000" />
       <workItem from="1567445108847" duration="5987000" />
       <workItem from="1567497820955" duration="2572000" />
-      <workItem from="1567500878260" duration="540000" />
+      <workItem from="1567500878260" duration="1227000" />
+      <workItem from="1567502306873" duration="7291000" />
     </task>
     <task id="LOCAL-00001" summary="Create and store categories">
       <created>1566827977287</created>
@@ -265,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567500794065</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="editor and datepicker for posts page">
+      <created>1567501484428</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1567501484428</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +327,7 @@
     <MESSAGE value="Permanently delete from app after soft delete" />
     <MESSAGE value="Soft delete post delete from db" />
     <MESSAGE value="Starting point" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting point" />
+    <MESSAGE value="editor and datepicker for posts page" />
+    <option name="LAST_COMMIT_MESSAGE" value="editor and datepicker for posts page" />
   </component>
 </project>

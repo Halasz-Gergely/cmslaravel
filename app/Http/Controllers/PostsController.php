@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\Posts\CreatePostsRequest;
 use App\Post;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
 class PostsController extends Controller
@@ -22,6 +21,7 @@ class PostsController extends Controller
 
     public function store(CreatePostsRequest $request)
     {
+
         //upload image
         $image = $request->image->store('posts');
 
