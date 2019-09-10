@@ -17,7 +17,6 @@
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cms3" beforeDir="false" />
     </list>
     <list id="d9438687-037b-445f-bc69-c658aa6de369" name="Starting point" comment="">
@@ -48,12 +47,8 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
       <ranges>
-        <range start1="5" end1="5" start2="5" end2="6" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="31" end1="33" start2="32" end2="35" changelist="d9438687-037b-445f-bc69-c658aa6de369" />
-        <range start1="48" end1="49" start2="50" end2="51" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="50" end1="51" start2="52" end2="53" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="54" end1="55" start2="56" end2="57" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="56" end1="57" start2="58" end2="75" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
+        <range start1="32" end1="34" start2="32" end2="35" changelist="d9438687-037b-445f-bc69-c658aa6de369" />
+        <range start1="96" end1="97" start2="97" end2="98" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
       </ranges>
     </file>
   </component>
@@ -202,7 +197,7 @@
       <workItem from="1567497820955" duration="2572000" />
       <workItem from="1567500878260" duration="1227000" />
       <workItem from="1567502306873" duration="9093000" />
-      <workItem from="1568112592592" duration="9370000" />
+      <workItem from="1568112592592" duration="10471000" />
     </task>
     <task id="LOCAL-00001" summary="Create and store categories">
       <created>1566827977287</created>
@@ -316,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568115285334</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update Posts">
+      <created>1568123532473</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1568123532473</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +353,7 @@
     <MESSAGE value="Editor javascript conflict:solved,&#10;Database create()-&gt;content problem solved." />
     <MESSAGE value="Changed 2 post field types" />
     <MESSAGE value="Changed field 2 types of fields in posts table cuz it was unable to store all the info needed (longText, mediumText)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed field 2 types of fields in posts table cuz it was unable to store all the info needed (longText, mediumText)" />
+    <MESSAGE value="Update Posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Posts" />
   </component>
 </project>
