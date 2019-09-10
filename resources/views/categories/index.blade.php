@@ -58,6 +58,7 @@
     <script>
         function handleDelete(id){
             var form = document.getElementById('deleteCategoryForm')
+            console.log(id)
             form.action = '/categories/' + id
             $('#deleteModal').modal('show')
         }
