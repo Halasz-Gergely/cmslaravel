@@ -13,7 +13,7 @@
                     <thead>
                     <th>Image</th>
                     <th>Title</th>
-                    <th></th>
+                    <th>Action</th>
                     <th></th>
                     </thead>
                     <tbody>
@@ -23,7 +23,7 @@
                             <td>{{ $post->title }}</td>
                             @if(!$post->trashed())
                                 <td>
-                                    <a href="" class="btn btn-info btn-sm float-right">Edit</a>
+                                    <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-info btn-sm float-right">Edit</a>
                                 </td>
                             @endif
                             <td>
