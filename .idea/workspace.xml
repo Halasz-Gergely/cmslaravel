@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" name="Default Changelist" comment="Starting point">
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Posts/UpdatePostsRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../adrisland" beforeDir="false" afterPath="$PROJECT_DIR$/../adrisland" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/.idea/workspace.xml" afterDir="false" />
@@ -15,8 +16,6 @@
       <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cms3" beforeDir="false" />
     </list>
     <list id="d9438687-037b-445f-bc69-c658aa6de369" name="Starting point" comment="">
@@ -43,14 +42,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
-      <ranges>
-        <range start1="32" end1="34" start2="32" end2="35" changelist="d9438687-037b-445f-bc69-c658aa6de369" />
-        <range start1="96" end1="97" start2="97" end2="98" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-      </ranges>
-    </file>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -197,7 +188,7 @@
       <workItem from="1567497820955" duration="2572000" />
       <workItem from="1567500878260" duration="1227000" />
       <workItem from="1567502306873" duration="9093000" />
-      <workItem from="1568112592592" duration="10471000" />
+      <workItem from="1568112592592" duration="10731000" />
     </task>
     <task id="LOCAL-00001" summary="Create and store categories">
       <created>1566827977287</created>
@@ -318,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568123532473</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Change path to route post/edit">
+      <created>1568126003280</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1568126003280</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +352,7 @@
     <MESSAGE value="Changed 2 post field types" />
     <MESSAGE value="Changed field 2 types of fields in posts table cuz it was unable to store all the info needed (longText, mediumText)" />
     <MESSAGE value="Update Posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Posts" />
+    <MESSAGE value="Change path to route post/edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change path to route post/edit" />
   </component>
 </project>
