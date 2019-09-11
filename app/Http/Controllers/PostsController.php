@@ -11,6 +11,11 @@ use App\Post;
 class PostsController extends Controller
 {
 
+    public function __construct()
+    {
+        $this->middleware('verifyCategoriesCount')->only(['create', 'store']);
+    }
+
     public function index()
     {
         return view ('posts.index')->with('posts', Post::all());

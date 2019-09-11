@@ -80,14 +80,10 @@
                         {{ session()->get('success') }}
                     </div>
                 @endif
-                @if($errors->any())
-                    <alert class="alert-danger">
-                        @foreach($errors as $error)
-                            <ul>
-                                <li>{{ $error }}</li>
-                            </ul>
-                        @endforeach
-                    </alert>
+                @if(session()->has('error'))
+                    <div class="alert alert-danger">
+                        {{ session()->get('error') }}
+                    </div>
                 @endif
                 <div class="row">
                     <div class="col-md-4">
