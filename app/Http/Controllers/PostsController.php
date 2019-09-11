@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
 use App\Http\Requests\Posts\CreatePostsRequest;
 use App\Http\Requests\Posts\UpdatePostsRequest;
 use App\Post;
@@ -17,7 +18,7 @@ class PostsController extends Controller
 
     public function create()
     {
-        return view('posts.create');
+        return view('posts.create')->with('categories', Category::all());
     }
 
     public function store(CreatePostsRequest $request)
@@ -47,7 +48,7 @@ class PostsController extends Controller
 
     public function edit(POST $post)
     {
-        return view('posts.create')->with('post', $post);
+        return view('posts.create')->with('post', $post)->with('categories', Category::all());
     }
 
 
@@ -61,9 +62,9 @@ class PostsController extends Controller
             $image = $request->image->store('posts');
             //delete old one
             $post->deleteImage();
+            //add image to container value
+            $data['image'] = $image;
         }
-        //add image to container value
-        $data['image'] = $image;
         //update attributes
         $post->update($data);
         //flash message

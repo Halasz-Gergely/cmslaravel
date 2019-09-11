@@ -16,10 +16,14 @@
       <change beforePath="$PROJECT_DIR$/../backup/cms2/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Posts/CreatePostsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Posts/CreatePostsRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Posts/UpdatePostsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Posts/UpdatePostsRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_26_111419_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_26_111419_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cms3" beforeDir="false" />
     </list>
     <list id="d9438687-037b-445f-bc69-c658aa6de369" name="Starting point" comment="">
@@ -50,13 +54,12 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
       <ranges>
-        <range start1="7" end1="8" start2="7" end2="8" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="24" end1="25" start2="24" end2="24" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="27" end1="28" start2="26" end2="26" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="32" end1="34" start2="30" end2="33" changelist="d9438687-037b-445f-bc69-c658aa6de369" />
-        <range start1="64" end1="65" start2="63" end2="64" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="81" end1="82" start2="80" end2="81" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="99" end1="99" start2="98" end2="108" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
+        <range start1="4" end1="4" start2="4" end2="5" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
+        <range start1="19" end1="20" start2="20" end2="21" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
+        <range start1="30" end1="32" start2="31" end2="35" changelist="d9438687-037b-445f-bc69-c658aa6de369" />
+        <range start1="49" end1="50" start2="52" end2="53" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
+        <range start1="63" end1="63" start2="66" end2="68" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
+        <range start1="64" end1="66" start2="69" end2="69" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
       </ranges>
     </file>
   </component>
@@ -205,7 +208,8 @@
       <workItem from="1567497820955" duration="2572000" />
       <workItem from="1567500878260" duration="1227000" />
       <workItem from="1567502306873" duration="9093000" />
-      <workItem from="1568112592592" duration="15702000" />
+      <workItem from="1568112592592" duration="15808000" />
+      <workItem from="1568191541259" duration="5670000" />
     </task>
     <task id="LOCAL-00001" summary="Create and store categories">
       <created>1566827977287</created>
@@ -340,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568126101475</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Refactor and trash restore function">
+      <created>1568134636392</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1568134636392</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,6 +389,7 @@
     <MESSAGE value="Update Posts" />
     <MESSAGE value="Change path to route post/edit" />
     <MESSAGE value="Update Post Request" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Post Request" />
+    <MESSAGE value="Refactor and trash restore function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor and trash restore function" />
   </component>
 </project>

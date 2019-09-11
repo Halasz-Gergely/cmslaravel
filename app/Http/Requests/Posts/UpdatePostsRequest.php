@@ -22,6 +22,7 @@ class UpdatePostsRequest extends FormRequest
             'title'         => 'required',
             'description'   => 'required',
             'postContent'   => 'required',
+            'category'      => 'required',
             'published_at'  => 'required'
         ];
     }

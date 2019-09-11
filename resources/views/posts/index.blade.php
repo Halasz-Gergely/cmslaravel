@@ -13,7 +13,8 @@
                     <thead>
                     <th>Image</th>
                     <th>Title</th>
-                    <th>Action</th>
+                    <th>Category</th>
+                    <th></th>
                     <th></th>
                     </thead>
                     <tbody>
@@ -21,6 +22,7 @@
                         <tr>
                             <td><img src="{{ asset('storage/'.$post->image) }}" alt="image" width="80px" height="60px"></td>
                             <td>{{ $post->title }}</td>
+                            <td>{{ $post->category->name }}</td>
                             @if($post->trashed())
                                 <td>
                                     <form action="{{ route('restore-post', $post->id) }}" method="POST">
@@ -30,15 +32,15 @@
                                     </form>
                                 </td>
                             @else
-                                <td>
+                                <td class="pr-0">
                                     <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-info btn-sm float-right">Edit</a>
                                 </td>
                             @endif
-                            <td>
+                            <td class="pl-0">
                                 <form action="{{ route('posts.destroy', $post->id) }}" method="POST">
                                     @csrf
                                     @method('DELETE')
-                                    <button type="submit" class="btn btn-danger btn-sm ml-2 float-left">{{ $post->trashed() ? 'Delete' : 'Trash' }}</button>
+                                    <button type="submit" class="btn btn-danger btn-sm float-left">{{ $post->trashed() ? 'Delete' : 'Trash' }}</button>
                                 </form>
                             </td>
                         </tr>
