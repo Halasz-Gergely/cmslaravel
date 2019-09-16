@@ -6,6 +6,7 @@ use App\Category;
 use App\Http\Requests\Posts\CreatePostsRequest;
 use App\Http\Requests\Posts\UpdatePostsRequest;
 use App\Post;
+use App\Tag;
 
 
 class PostsController extends Controller
@@ -23,7 +24,7 @@ class PostsController extends Controller
 
     public function create()
     {
-        return view('posts.create')->with('categories', Category::all());
+        return view('posts.create')->with('categories', Category::all())->with('tags', Tag::all());
     }
 
     public function store(CreatePostsRequest $request)
@@ -31,12 +32,17 @@ class PostsController extends Controller
         //upload image
         $image = $request->image->store('posts');
         //create the post
-        Post::create([
+        $post = Post::create([
             'title'         => $request->title,
             'description'   => $request->description,
             'content'       => $request->content,
             'image'         => $image
         ]);
+
+        if($request->tags)
+        {
+            $post->tags()->attach($request->tags);
+        }
 
         //flash session
         session()->flash('success', 'Post Created Successfully');
@@ -53,7 +59,7 @@ class PostsController extends Controller
 
     public function edit(POST $post)
     {
-        return view('posts.create')->with('post', $post)->with('categories', Category::all());
+        return view('posts.create')->with('post', $post)->with('categories', Category::all())->with('tags', Tag::all());
     }
 
 
