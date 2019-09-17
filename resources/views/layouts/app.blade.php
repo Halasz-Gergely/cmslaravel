@@ -88,6 +88,11 @@
                 <div class="row">
                     <div class="col-md-4">
                         <ul class="list-group">
+                            @if(auth()->user()->isAdmin())
+                            <li class="list-group-item">
+                                <a href={{route('users.index')}}>Users</a>
+                            </li>
+                            @endif
                             <li class="list-group-item">
                                 <a href="{{ route('posts.index') }}">Posts</a>
                             </li>
@@ -110,7 +115,7 @@
                 </div>
             </div>
         @else
-                @yield('content')
+            @yield('content')
         @endauth
         </main>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
