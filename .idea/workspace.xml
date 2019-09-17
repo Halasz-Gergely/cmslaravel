@@ -16,10 +16,8 @@
       <change beforePath="$PROJECT_DIR$/../backup/cms2/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tags/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tags/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TagsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TagsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cms3" beforeDir="false" />
     </list>
     <list id="d9438687-037b-445f-bc69-c658aa6de369" name="Starting point" comment="">
@@ -49,18 +47,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
-      <ranges>
-        <range start1="8" end1="8" start2="8" end2="9" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="25" end1="26" start2="26" end2="27" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="33" end1="34" start2="34" end2="35" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="36" end1="38" start2="37" end2="41" changelist="d9438687-037b-445f-bc69-c658aa6de369" />
-        <range start1="40" end1="40" start2="43" end2="48" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="55" end1="56" start2="63" end2="64" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-      </ranges>
-    </file>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -212,7 +198,9 @@
       <workItem from="1568213445356" duration="8000" />
       <workItem from="1568281469112" duration="3597000" />
       <workItem from="1568369349256" duration="6000" />
-      <workItem from="1568625263594" duration="9350000" />
+      <workItem from="1568625263594" duration="10041000" />
+      <workItem from="1568706854680" duration="113000" />
+      <workItem from="1568707565962" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="Create and store categories">
       <created>1566827977287</created>
@@ -389,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568285853746</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Post - Tags Many to many">
+      <created>1568643114809</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1568643114809</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,6 +428,7 @@
     <MESSAGE value="Verify Categories custom middleware" />
     <MESSAGE value="Tags function" />
     <MESSAGE value="Tags main files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tags main files" />
+    <MESSAGE value="Post - Tags Many to many" />
+    <option name="LAST_COMMIT_MESSAGE" value="Post - Tags Many to many" />
   </component>
 </project>
