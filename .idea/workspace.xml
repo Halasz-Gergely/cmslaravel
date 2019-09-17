@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" name="Default Changelist" comment="Starting point">
-      <change afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../adrisland" beforeDir="false" afterPath="$PROJECT_DIR$/../adrisland" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/.idea/workspace.xml" afterDir="false" />
@@ -17,11 +17,8 @@
       <change beforePath="$PROJECT_DIR$/../backup/cms2/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cms3" beforeDir="false" />
     </list>
@@ -52,20 +49,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <ranges>
-        <range start1="11" end1="14" start2="11" end2="11" changelist="d9438687-037b-445f-bc69-c658aa6de369" />
-        <range start1="20" end1="20" start2="17" end2="25" changelist="d9438687-037b-445f-bc69-c658aa6de369" />
-        <range start1="41" end1="55" start2="46" end2="60" changelist="d9438687-037b-445f-bc69-c658aa6de369" />
-        <range start1="56" end1="62" start2="61" end2="67" changelist="d9438687-037b-445f-bc69-c658aa6de369" />
-        <range start1="63" end1="69" start2="68" end2="74" changelist="d9438687-037b-445f-bc69-c658aa6de369" />
-        <range start1="90" end1="90" start2="95" end2="100" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="112" end1="113" start2="122" end2="123" changelist="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" />
-        <range start1="115" end1="118" start2="125" end2="125" changelist="d9438687-037b-445f-bc69-c658aa6de369" />
-      </ranges>
-    </file>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -219,7 +202,8 @@
       <workItem from="1568369349256" duration="6000" />
       <workItem from="1568625263594" duration="10041000" />
       <workItem from="1568706854680" duration="113000" />
-      <workItem from="1568707565962" duration="5221000" />
+      <workItem from="1568707565962" duration="6030000" />
+      <workItem from="1568716354883" duration="3172000" />
     </task>
     <task id="LOCAL-00001" summary="Create and store categories">
       <created>1566827977287</created>
@@ -410,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568708519522</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="User management middleware, view base">
+      <created>1568712980167</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1568712980167</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +422,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Posts, Category models, migrations created. Auth-dependent content in admin" />
     <MESSAGE value="Create and store categories" />
     <MESSAGE value="Request object added" />
     <MESSAGE value="CRUD / U" />
@@ -456,6 +446,7 @@
     <MESSAGE value="Tags main files" />
     <MESSAGE value="Post - Tags Many to many" />
     <MESSAGE value="tag select jq + tag delete error fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="tag select jq + tag delete error fix" />
+    <MESSAGE value="User management middleware, view base" />
+    <option name="LAST_COMMIT_MESSAGE" value="User management middleware, view base" />
   </component>
 </project>
