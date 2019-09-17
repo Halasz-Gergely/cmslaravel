@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\Users\UpdateProfileRequest;
 use App\User;
-use Illuminate\Http\Request;
+
 
 class UsersController extends Controller
 {
@@ -26,6 +26,13 @@ class UsersController extends Controller
             'about'=> $request->about
        ]);
         session()->flash('success', 'Profile updated successfully');
+        return redirect()->back();
+    }
+
+    public function makeAdmin(User $user){
+        $user->role ='admin';
+        $user->save();
+        session()->flash('success', 'User has been promoted');
         return redirect()->back();
     }
 }
