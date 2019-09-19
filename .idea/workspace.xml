@@ -2,12 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" name="Default Changelist" comment="Starting point">
-      <change afterPath="$PROJECT_DIR$/public/css/page.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/page.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/et-line.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/et-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/et-line.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/et-line.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo-light.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../adrisland" beforeDir="false" afterPath="$PROJECT_DIR$/../adrisland" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/.gitattributes" beforeDir="false" />
@@ -125,9 +150,13 @@
       <change beforePath="$PROJECT_DIR$/../backup/cms2/tests/Unit/ExampleTest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/webpack.mix.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <list id="d9438687-037b-445f-bc69-c658aa6de369" name="Starting point" comment="">
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
@@ -250,17 +279,20 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/js" />
-      <recent name="$PROJECT_DIR$/public/img" />
-      <recent name="$PROJECT_DIR$/public/css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/storage/posts" />
       <recent name="$PROJECT_DIR$/app/Http/Requests/Categories" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/img" />
+      <recent name="$PROJECT_DIR$/public/storage/posts" />
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/public/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -317,7 +349,8 @@
       <workItem from="1568707565962" duration="6030000" />
       <workItem from="1568716354883" duration="5871000" />
       <workItem from="1568729414496" duration="8000" />
-      <workItem from="1568883568283" duration="3202000" />
+      <workItem from="1568883568283" duration="7912000" />
+      <workItem from="1568903042373" duration="3874000" />
     </task>
     <task id="LOCAL-00001" summary="Create and store categories">
       <created>1566827977287</created>
@@ -529,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568721613895</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Welcome page 1. with custom sass">
+      <created>1568886969507</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1568886969507</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +590,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="CRUD / U" />
     <MESSAGE value="Delete with post request, javascript, modal" />
     <MESSAGE value="Create post page and controller, route" />
     <MESSAGE value="Soft-delete function for Posts table" />
@@ -575,6 +614,7 @@
     <MESSAGE value="User management middleware, view base" />
     <MESSAGE value="Update profile" />
     <MESSAGE value="Make admin function for users index @method('PUT')" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make admin function for users index @method('PUT')" />
+    <MESSAGE value="Welcome page 1. with custom sass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Welcome page 1. with custom sass" />
   </component>
 </project>
