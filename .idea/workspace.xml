@@ -2,24 +2,132 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" name="Default Changelist" comment="Starting point">
+      <change afterPath="$PROJECT_DIR$/public/css/page.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/page.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../adrisland" beforeDir="false" afterPath="$PROJECT_DIR$/../adrisland" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/app/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backup/cms2/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backup/cms2/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/resources/views/categories/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backup/cms2/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backup/cms2/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/cms2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Controllers/CategoriesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Controllers/PostsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Requests/Categories/CreateCategoryRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Requests/Categories/UpdateCategoriesRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Http/Requests/Posts/CreatePostsRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/database/migrations/2019_08_26_111419_create_posts_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/database/migrations/2019_08_26_111508_create_categories_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/js/components/ExampleComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/auth/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/auth/passwords/email.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/auth/passwords/reset.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/auth/register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/auth/verify.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/categories/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/categories/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/posts/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/cms2/webpack.mix.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cms3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <list id="d9438687-037b-445f-bc69-c658aa6de369" name="Starting point" comment="">
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
@@ -142,10 +250,15 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/public/img" />
+      <recent name="$PROJECT_DIR$/public/css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Http/Requests/Categories" />
     </key>
@@ -202,7 +315,9 @@
       <workItem from="1568625263594" duration="10041000" />
       <workItem from="1568706854680" duration="113000" />
       <workItem from="1568707565962" duration="6030000" />
-      <workItem from="1568716354883" duration="5136000" />
+      <workItem from="1568716354883" duration="5871000" />
+      <workItem from="1568729414496" duration="8000" />
+      <workItem from="1568883568283" duration="3202000" />
     </task>
     <task id="LOCAL-00001" summary="Create and store categories">
       <created>1566827977287</created>
@@ -407,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568719674562</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Make admin function for users index @method('PUT')">
+      <created>1568721613895</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1568721613895</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +550,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Request object added" />
     <MESSAGE value="CRUD / U" />
     <MESSAGE value="Delete with post request, javascript, modal" />
     <MESSAGE value="Create post page and controller, route" />
@@ -453,6 +574,7 @@
     <MESSAGE value="tag select jq + tag delete error fix" />
     <MESSAGE value="User management middleware, view base" />
     <MESSAGE value="Update profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update profile" />
+    <MESSAGE value="Make admin function for users index @method('PUT')" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make admin function for users index @method('PUT')" />
   </component>
 </project>
