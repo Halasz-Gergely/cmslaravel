@@ -120,6 +120,7 @@
       <change beforePath="$PROJECT_DIR$/../backup/cms2/webpack.mix.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <list id="d9438687-037b-445f-bc69-c658aa6de369" name="Starting point" comment="">
@@ -319,7 +320,7 @@
       <workItem from="1568982431599" duration="1040000" />
       <workItem from="1568984321823" duration="3661000" />
       <workItem from="1568990169974" duration="1763000" />
-      <workItem from="1569232723087" duration="2095000" />
+      <workItem from="1569232723087" duration="4078000" />
     </task>
     <task id="LOCAL-00001" summary="Create and store categories">
       <created>1566827977287</created>
@@ -552,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568987631553</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Front Page Pagination">
+      <created>1569235558309</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1569235558309</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +581,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Soft-delete function for Posts table" />
     <MESSAGE value="Permanently delete from app after soft delete" />
     <MESSAGE value="Soft delete post delete from db" />
     <MESSAGE value="Starting point" />
@@ -598,6 +605,7 @@
     <MESSAGE value="Welcome page 1. with custom sass" />
     <MESSAGE value="Frontend page design" />
     <MESSAGE value="single post page design &amp; disqus comment section integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="single post page design &amp; disqus comment section integration" />
+    <MESSAGE value="Front Page Pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Front Page Pagination" />
   </component>
 </project>
