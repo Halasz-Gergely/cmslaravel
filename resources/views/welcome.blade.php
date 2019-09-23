@@ -1,5 +1,4 @@
 @extends('layouts.blog')
-
 @section('title')
 TheSaaS — Blog with sidebar
 @endsection
@@ -34,10 +33,7 @@ TheSaaS — Blog with sidebar
                                 </div>
                             @endforeach
                         </div>
-                        <nav class="flexbox mt-30">
-                            <a class="btn btn-white disabled"><i class="ti-arrow-left fs-9 mr-4"></i> Newer</a>
-                            <a class="btn btn-white" href="#">Older <i class="ti-arrow-right fs-9 ml-4"></i></a>
-                        </nav>
+                        {{ $posts->links() }}
                     </div>
                     <div class="col-md-4 col-xl-3">
                         <div class="sidebar px-4 py-md-0">
@@ -89,38 +85,3 @@ TheSaaS — Blog with sidebar
         </div>
     </main>
 @endsection
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-
-    <!-- Styles -->
-    <link href="{{ asset('css/page.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.png') }}">
-    <link rel="icon" href="{{ asset('img/favicon.png') }}">
-</head>
-<body>
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light navbar-stick-dark" data-navbar="sticky">
-    <div class="container">
-        <div class="navbar-left">
-            <button class="navbar-toggler" type="button">&#9776;</button>
-            <a class="navbar-brand" href="/">
-                <img class="logo-dark" src="{{ asset('img/logo-dark.png') }}" alt="logo">
-                <img class="logo-light" src="{{ asset('img/logo-light.png') }}" alt="logo">
-            </a>
-        </div>
-        <section class="navbar-mobile">
-            <span class="navbar-divider d-mobile-none"></span>
-            <ul class="nav nav-navbar">
-            </ul>
-        </section>
-        <a class="btn btn-xs btn-round btn-success" href="{{ route('login') }}">Login</a>
-    </div>
-</nav>
-<!-- /.navbar -->
