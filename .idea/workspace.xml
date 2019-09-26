@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9b04fa-2312-46b5-8a85-71ff9ad16b2d" name="Default Changelist" comment="Frontend page design">
+      <change afterPath="$PROJECT_DIR$/resources/views/blog/category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blog/tag.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../adrisland" beforeDir="false" afterPath="$PROJECT_DIR$/../adrisland" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../backup/cms2/.gitattributes" beforeDir="false" />
@@ -120,8 +123,8 @@
       <change beforePath="$PROJECT_DIR$/../backup/cms2/webpack.mix.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <list id="d9438687-037b-445f-bc69-c658aa6de369" name="Starting point" comment="">
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
@@ -320,7 +323,9 @@
       <workItem from="1568982431599" duration="1040000" />
       <workItem from="1568984321823" duration="3661000" />
       <workItem from="1568990169974" duration="1763000" />
-      <workItem from="1569232723087" duration="4078000" />
+      <workItem from="1569232723087" duration="4208000" />
+      <workItem from="1569497459751" duration="624000" />
+      <workItem from="1569512417106" duration="3718000" />
     </task>
     <task id="LOCAL-00001" summary="Create and store categories">
       <created>1566827977287</created>
@@ -560,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569235558309</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Frontend search functionality with pagination">
+      <created>1569237543785</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1569237543785</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +593,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Permanently delete from app after soft delete" />
     <MESSAGE value="Soft delete post delete from db" />
     <MESSAGE value="Starting point" />
     <MESSAGE value="editor and datepicker for posts page" />
@@ -606,6 +617,7 @@
     <MESSAGE value="Frontend page design" />
     <MESSAGE value="single post page design &amp; disqus comment section integration" />
     <MESSAGE value="Front Page Pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="Front Page Pagination" />
+    <MESSAGE value="Frontend search functionality with pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend search functionality with pagination" />
   </component>
 </project>
